@@ -8,8 +8,9 @@
   </head>
   <body>
     <main id="main-doc">
-      <nav id="navbar"></nav>
-      <h1>Ionic Technical Documentation</h1>
+      <nav id="navbar">
+        <header><h1>Ionic Documentation</h1></header>
+      </nav>
       <section id="Overview" class="main-section">
         <header>Overview</header>
         <p>
@@ -139,9 +140,28 @@ $ npm install -g @ionic/cli</code></pre>
       </section>
       <section id="Packages_&_CDN" class="main-section">
         <header>Packages & CDN</header>
+        <p>Ionic provides different packages that can be used to quickly get started using Ionic Framework or Ionicons in a test environment, Angular, any other framework, or none at all.</p>
+        <h2>Ionic Framework CDN</h2>
+        <p>Ionic Framework can be included from a CDN for quick testing in a Plunker, Codepen, or any other online code editor!</p>
+        <p>It's recommended to use jsdelivr to access the Framework from a CDN. To get the latest version, add the following inside the <head> element in an HTML file, or where external assets are included in the online code editor:</p>
+        <p>With this it's possible to use all of the Ionic Framework core components without having to install a framework. The CSS bundle will include all of the Ionic Global Stylesheets.</p>
+        <h2>Ionic + Angular</h2>
+        <p>When using Ionic Framework in an Angular project, install the latest @ionic/angular package from npm. This comes with all of the Ionic Framework components and Angular specific services and features.</p>
+        <pre><code>$ npm install @ionic/angular@latest --save</code></pre>
+        <p>Each time there is a new Ionic Framework release, this version will need to be updated to get the latest features and fixes. The version can be updated using npm, as well.</p>
+        <p>For adding Ionic to an already existing Angular project, use the Angular CLI's ng add feature.</p>
+        <pre><code>$ ng add @ionic/angular</code></pre>
+        <p>This will add the necessary imports to the @ionic/angular package as well as add the styles needed.</p>
       </section>
       <section id="Next_Steps" class="main-section">
         <header>Next Steps</header>
+        <h2>BUild Your First App</h2>
+        <p>Pick the JavaScript framework you plan to use while building your Ionic app:</p>
+        <ol>
+          <li>Start with Angular</li>
+          <li>Start with React</li>
+          <li>Start with Vue</li>
+        </ol>
       </section>
     </main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>

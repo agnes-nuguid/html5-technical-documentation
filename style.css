@@ -6,9 +6,10 @@ body {
 }
 
 .main-section > header {
-  font-size: 1.75em;
+  font-size: 1.5em;
   font-weight: bolder;
-  margin: 40px 0px 20px 0px;
+  margin: 20px 0px;
+  padding-top: 20px;
 }
 
 code {
