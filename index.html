@@ -8,6 +8,7 @@
   </head>
   <body>
     <main id="main-doc">
+      <h1>Ionic Technical Documentation</h1>
       <section id="Overview" class="main-section">
         <header>Overview</header>
         <p>
@@ -77,9 +78,54 @@
         </p>
         <p>Node is bundled with npm, the package manager for JavaScript.</p>
         <p>To verify the installation, open a new terminal window and run:</p>
+        <pre><code>$ node --version
+$ npm --version</code></pre>
+        <h2>Node & npm</h2>
+        <p>
+          Although not required, the version control system Git is highly
+          recommended.
+        </p>
+        <p>
+          Git is often accompanied by a Git Host, such as GitHub, in which case
+          additional setup is required. Follow the tutorial from the Git Host's
+          documentation to set up Git:
+        </p>
+        <p>
+          Otherwise, follow the official installation instructions. The
+          command-line utility can be downloaded from the download page.
+        </p>
+        <p>To verify the installation, open a new terminal window and run:</p>
+        <pre><code>$ git --version</code></pre>
       </section>
       <section id="CLI_Installation" class="main-section">
         <header>CLI Installation</header>
+        <p>
+          Ionic apps are created and developed primarily through the Ionic
+          command-line utility. The Ionic CLI is the preferred method of
+          installation, as it offers a wide range of dev tools and help options
+          along the way. It is also the main tool through which to run the app
+          and connect it to other services, such as Ionic Appflow.
+        </p>
+        <p>
+          Before proceeding, make sure your computer has Node.js installed. See
+          these instructions to set up an environment for Ionic.
+        </p>
+        <p>Install the Ionic CLI with npm:</p>
+        <pre><code>$ npm install -g @ionic/cli</code></pre>
+        <p>
+          f there was a previous installation of the Ionic CLI, it will need to
+          be uninstalled due to a change in package name.
+        </p>
+        <pre><code>$ npm uninstall -g ionic 
+$ npm install -g @ionic/cli</code></pre>
+        <h2>Start an App</h2>
+        <p>
+          Create an Ionic app using one of the pre-made app templates, or a
+          blank one to start fresh. The three most common starters are the blank
+          starter, tabs starter, and sidemenu starter. Get started with the
+          ionic start command:
+          <pre><code>$ ionic start myApp tabs</code></pre>
+        </p>
       </section>
       <section id="Packages_&_CDN" class="main-section">
         <header>Packages & CDN</header>
