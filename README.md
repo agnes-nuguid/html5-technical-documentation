@@ -1,5 +1,7 @@
 # ionic-technical-documentation
 
+![image](https://user-images.githubusercontent.com/22828458/99146982-fcf94f80-26b7-11eb-8e2d-2d76f74733c5.png)
+
 A project created in response to [FreeCodeCamp's Responsive Web Design Projects - Build a Technical Documentation Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page)
 
 https://agnes-nuguid.github.io/html5-technical-documentation
