@@ -1,10 +1,10 @@
-# html5-technical-documentation
+# ionic-technical-documentation
 
 A project created in response to [FreeCodeCamp's Responsive Web Design Projects - Build a Technical Documentation Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page)
 
 https://agnes-nuguid.github.io/html5-technical-documentation
 
-Source: https://dev.w3.org/html5/html-author/
+Source: https://ionicframework.com/docs/intro/cdn
 
 ## User Stories:
 
