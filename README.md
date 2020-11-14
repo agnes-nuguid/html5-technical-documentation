@@ -16,7 +16,7 @@ Source: https://ionicframework.com/docs/intro/cdn
 - [x] 5: The `.main-section` elements should contain at least 10 `p` elements total (not each).
 - [x] 6: The `.main-section` elements should contain at least 5 `code` elements total (not each).
 - [x] 7: The `.main-section` elements should contain at least 5 `li` items total (not each).
-- [ ] 8: I can see a `nav` element with a corresponding `id="navbar"`.
+- [x] 8: I can see a `nav` element with a corresponding `id="navbar"`.
 - [ ] 9: The navbar element should contain one `header` element which contains text that describes the topic of the technical documentation.
 - [ ] 10: Additionally, the navbar should contain link (`a`) elements with the class of `nav-link`. There should be one for every element with the class `main-section`.
 - [ ] 11: The `header` element in the navbar must come before any link (`a`) elements in the navbar.
