@@ -7,17 +7,21 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
+    <nav id="navbar">
+      <header><h1>Ionic Documentation</h1></header>
+      <ul>
+        <li><a class="nav-link" href="#Overview">Overview</a></li>
+        <li>
+          <a class="nav-link" href="#Environment_Setup">Environment Setup</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#CLI_Installation">CLI Installation</a>
+        </li>
+        <li><a class="nav-link" href="#Packages_&_CDN">Packages & CDN</a></li>
+        <li><a class="nav-link" href="#Next_Steps">Next Steps</a></li>
+      </ul>
+    </nav>
     <main id="main-doc">
-      <nav id="navbar">
-        <header><h1>Ionic Documentation</h1></header>
-         <ul>
-          <li><a class="nav-link" href="#Overview">Overview</a></li>
-          <li><a class="nav-link" href="#Environment_Setup">Environment Setup</a></li>
-          <li><a class="nav-link" href="#CLI_Installation">CLI Installation</a></li>
-          <li><a class="nav-link" href="#Packages_&_CDN">Packages & CDN</a></li>
-          <li><a class="nav-link" href="#Next_Steps">Next Steps</a></li>
-        </ul>
-      </nav>
       <section id="Overview" class="main-section">
         <header>Overview</header>
         <p>
@@ -75,7 +79,10 @@
           third-party terminals work well with Ionic, but may not be supported.
         </p>
         <ul>
-          <li>For Windows, Command Prompt and PowerShell are supported. WSL is known to work with Ionic, but may not be supported.</li>
+          <li>
+            For Windows, Command Prompt and PowerShell are supported. WSL is
+            known to work with Ionic, but may not be supported.
+          </li>
           <li>For macOS, the built-in Terminal app is supported.</li>
         </ul>
         <p>
@@ -142,28 +149,61 @@ $ npm install -g @ionic/cli</code></pre>
           blank one to start fresh. The three most common starters are the blank
           starter, tabs starter, and sidemenu starter. Get started with the
           ionic start command:
-          <pre><code>$ ionic start myApp tabs</code></pre>
         </p>
+        <pre><code>$ ionic start myApp tabs</code></pre>
       </section>
       <section id="Packages_&_CDN" class="main-section">
         <header>Packages & CDN</header>
-        <p>Ionic provides different packages that can be used to quickly get started using Ionic Framework or Ionicons in a test environment, Angular, any other framework, or none at all.</p>
+        <p>
+          Ionic provides different packages that can be used to quickly get
+          started using Ionic Framework or Ionicons in a test environment,
+          Angular, any other framework, or none at all.
+        </p>
         <h2>Ionic Framework CDN</h2>
-        <p>Ionic Framework can be included from a CDN for quick testing in a Plunker, Codepen, or any other online code editor!</p>
-        <p>It's recommended to use jsdelivr to access the Framework from a CDN. To get the latest version, add the following inside the <head> element in an HTML file, or where external assets are included in the online code editor:</p>
-        <p>With this it's possible to use all of the Ionic Framework core components without having to install a framework. The CSS bundle will include all of the Ionic Global Stylesheets.</p>
+        <p>
+          Ionic Framework can be included from a CDN for quick testing in a
+          Plunker, Codepen, or any other online code editor!
+        </p>
+        <p>
+          It's recommended to use jsdelivr to access the Framework from a CDN.
+          To get the latest version, add the following inside the &lt;head&gt;
+          element in an HTML file, or where external assets are included in the
+          online code editor:
+        </p>
+        <p>
+          With this it's possible to use all of the Ionic Framework core
+          components without having to install a framework. The CSS bundle will
+          include all of the Ionic Global Stylesheets.
+        </p>
         <h2>Ionic + Angular</h2>
-        <p>When using Ionic Framework in an Angular project, install the latest @ionic/angular package from npm. This comes with all of the Ionic Framework components and Angular specific services and features.</p>
+        <p>
+          When using Ionic Framework in an Angular project, install the latest
+          @ionic/angular package from npm. This comes with all of the Ionic
+          Framework components and Angular specific services and features.
+        </p>
         <pre><code>$ npm install @ionic/angular@latest --save</code></pre>
-        <p>Each time there is a new Ionic Framework release, this version will need to be updated to get the latest features and fixes. The version can be updated using npm, as well.</p>
-        <p>For adding Ionic to an already existing Angular project, use the Angular CLI's ng add feature.</p>
+        <p>
+          Each time there is a new Ionic Framework release, this version will
+          need to be updated to get the latest features and fixes. The version
+          can be updated using npm, as well.
+        </p>
+        <p>
+          For adding Ionic to an already existing Angular project, use the
+          Angular CLI's ng add feature.
+        </p>
         <pre><code>$ ng add @ionic/angular</code></pre>
-        <p>This will add the necessary imports to the @ionic/angular package as well as add the styles needed.</p>
+        <p>
+          This will add the necessary imports to the @ionic/angular package as
+          well as add the styles needed.
+        </p>
       </section>
       <section id="Next_Steps" class="main-section">
         <header>Next Steps</header>
         <h2>Build Your First App</h2>
-        <p>Pick the JavaScript framework you plan to use while building your Ionic app:</p>
+        <p>
+          Pick the JavaScript framework you plan to use while building your
+          Ionic app:
+        </p>
         <ol>
           <li>Start with Angular</li>
           <li>Start with React</li>

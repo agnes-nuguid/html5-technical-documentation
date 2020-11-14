@@ -1,19 +1,52 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Work Sans", sans-serif;
   line-height: 2em;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.8em;
+  padding-left: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(56, 128, 255);
+  padding: 5px 20px;
+  display: block;
+  transition: all 0.1s ease-in-out;
+}
+
+.nav-link:hover,
+#navbar li a.current {
+  background: rgb(233, 241, 255);
+  color: black;
+  font-weight: bold;
+}
+
+main {
+  padding: 0px 20px;
 }
 
 .main-section > header {
   font-size: 1.75em;
   font-weight: bolder;
   margin: 20px 0px;
-  padding-top: 20px;
 }
 
 code {
@@ -23,4 +56,18 @@ code {
   padding: 10px 20px;
   margin: 20px;
   border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  #navbar {
+    position: fixed;
+    width: 260px;
+    background: white;
+    height: 100vh;
+    border-right: 2px solid rgb(233, 241, 255);
+  }
+  #main-doc {
+    padding-left: 290px;
+    word-wrap: break-word;
+  }
 }
