@@ -49,6 +49,19 @@ main {
   margin: 20px 0px;
 }
 
+.warning a {
+  font-weight: bold;
+  color: #8c2155;
+}
+
+.warning {
+  padding: 0px 20px;
+  background: #d1bce3;
+  color: #8c2155;
+  border: 1px solid #8c2155;
+  border-radius: 15px;
+}
+
 code {
   display: block;
   background: rgb(29, 29, 29);
