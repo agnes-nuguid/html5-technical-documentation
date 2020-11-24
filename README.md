@@ -1,12 +1,10 @@
 # ionic-technical-documentation
 
-![image](https://user-images.githubusercontent.com/22828458/99146982-fcf94f80-26b7-11eb-8e2d-2d76f74733c5.png)
+![image](https://user-images.githubusercontent.com/22828458/100088487-26ba2f80-2e8b-11eb-8e59-ab321b87a090.png)
 
-A project created in response to [FreeCodeCamp's Responsive Web Design Projects - Build a Technical Documentation Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page)
+This is not a complete technical documentation, nor is it the official one. This is a project created in response to [FreeCodeCamp's Responsive Web Design Projects - Build a Technical Documentation Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page). Click the following link for the [Official Ionic Technical Documentation](https://ionicframework.com/docs/)
 
 https://agnes-nuguid.github.io/html5-technical-documentation
-
-Source: https://ionicframework.com/docs/intro/cdn
 
 ## User Stories:
 
