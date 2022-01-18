@@ -4,7 +4,7 @@
 
 This is not a complete technical documentation, nor is it the official one. This is a project created in response to [FreeCodeCamp's Responsive Web Design Projects - Build a Technical Documentation Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page). Click the following link for the [Official Ionic Technical Documentation](https://ionicframework.com/docs/)
 
-https://agnes-nuguid.github.io/html5-technical-documentation
+https://agnes-santos.github.io/html5-technical-documentation
 
 ## User Stories:
 
